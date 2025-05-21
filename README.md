@@ -1,10 +1,10 @@
-# Lunar Observer
+# Lunar Phase App
 
 A terminal-based application that provides real-time lunar data visualization based on your location.
 
 ## Overview
 
-Lunar Observer fetches accurate information about the Moon's current phase, position, and other characteristics as seen from your specific geographical location. It's designed for astronomers, stargazers, or anyone interested in lunar observation.
+This Lunar Phase app fetches live information about the Moon's current phase, position, and other characteristics as seen from your specific geographical location. It's designed for astronomers, stargazers, or anyone interested in lunar observation.
 
 ## Features
 
