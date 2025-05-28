@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Phase Calculator</title>
+    <link rel="stylesheet" href="/utils/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">🌙 Lunar Phase Calculator</h1>
+            <p class="subtitle">Real-time lunar data with libration and orientation calculations</p>
+            
+            <div class="location-input">
+                <input type="text" id="locationInput" value="Los Angeles, CA" placeholder="Enter your location">
+                <button onclick="fetchLunarData()">Calculate Lunar Phase</button>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Calculating lunar data...</p>
+        </div>
+
+        <div class="content" id="content" style="display: none;">
+            <div class="moon-display">
+                <div class="moon-image" id="moonImage">
+                    <img src="/static/moon.png" alt="Moon" id="moonImg">
+                </div>
+                <div id="librationInfo"></div>
+            </div>
+
+            <div class="data-panel" id="dataPanel">
+                <!-- Data sections will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <div class="error" id="error" style="display: none;"></div>
+    </div>
+
+    <script src="/utils/script.js"></script>
+</body>
+</html>
